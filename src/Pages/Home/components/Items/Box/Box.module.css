@@ -1,0 +1,78 @@
+.container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 0.5px solid grey;
+  box-shadow: 1px 1px 2px grey;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.image {
+  width: 200px;
+  position: relative;
+  margin: 0 auto;
+  padding: 10px;
+}
+.quantity {
+  display: flex;
+  margin: 10px auto;
+}
+.quantity > input {
+  background-color: black;
+  color: white;
+  width: 50px;
+}
+.button {
+  width: 100px;
+  margin: 10px auto;
+  cursor: pointer;
+  background-color: rgb(255, 216, 20);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-weight: 100;
+  font-size: 0.9rem;
+  transition: transform 100ms ease;
+  padding: 10px;
+  position: relative;
+}
+.button:hover {
+  transform: scale(1.1);
+}
+.bottom {
+  display: flex;
+  
+  position: relative;
+  
+}
+
+.add {
+  cursor: pointer !important;
+}
+.remove {
+  cursor: pointer !important;
+}
+.span {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.priceContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+.price {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.name {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+}

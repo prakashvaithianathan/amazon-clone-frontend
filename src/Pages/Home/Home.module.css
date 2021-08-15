@@ -1,0 +1,24 @@
+.item{
+    position: absolute;
+    width: 80%;
+    
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.loader{
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+@media screen and (max-width:1000px){
+    .item{
+        position: absolute;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+}

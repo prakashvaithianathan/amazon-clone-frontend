@@ -1,0 +1,56 @@
+.empty{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.link{
+    color: rgb(0, 204, 255);
+    font-weight: 400;
+}
+
+.image{
+    width: 200px;
+}
+
+.signIn{
+    background: rgb(255,216,20);
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    width: 150px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-weight: 100;
+    font-size: .90rem;
+    transition: transform 100ms ease;
+}
+
+ .signUp:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.signIn:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.signUp{
+    background: rgb(255, 255, 255);
+    border: 1px solid grey;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    width: 150px;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 100;
+    font-size: .90rem;
+    transition: transform 100ms ease;
+}
+
+.buttonList{
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}

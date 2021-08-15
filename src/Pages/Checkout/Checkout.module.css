@@ -1,0 +1,143 @@
+.image {
+    width: 200px;
+  }
+  
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin-top: 40px; */
+    /* background: rgb(255, 255, 255); */
+    height: auto;
+  }
+  
+  .close:hover {
+    cursor: pointer !important;
+    color: red !important;
+  }
+  
+  .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .price {
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+  
+  body {
+    background: rgb(234, 237, 237);
+  }
+  .grid {
+    display: flex;
+    justify-content: center;
+    /* height: 100vh; */
+    /* width: 100px; */
+    margin: 10px auto;
+  }
+  
+  .subTotalBox {
+    /* background: rgb(201, 35, 35); */
+    padding: 20px;
+  }
+  
+  .empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: white;
+    margin-left: 10px;
+    width: 100%;
+  }
+  
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 50px;
+  }
+  
+  .line {
+    width: 80%;
+    margin-top: -30px;
+    border: 0.5px solid rgba(179, 179, 179, 0.555);
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background: rgb(255, 255, 255);
+    width: 900px;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.952);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    position: relative;
+  }
+  
+  .lineAfter {
+    background: grey;
+    width: 80%;
+    height: 0.5px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  
+  .top {
+    display: flex;
+    position: relative;
+    width: 100%;
+  }
+  
+  .lineT {
+    width: 700px;
+  }
+  
+  .subBox {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transform: translateX(230px);
+    margin-bottom: 20px;
+    margin-top: -40px;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .grid {
+      /* margin: 10px auto; */
+      /* background:red; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      /* width: 20px; */
+    }
+    .empty {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      background: white;
+      margin-left: 10px;
+      width: 80%;
+    }
+  }
+  

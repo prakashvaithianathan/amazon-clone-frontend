@@ -1,0 +1,21 @@
+.ads{
+    width: 100%;
+}
+.grid{
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); */
+    /* justify-content:center; */
+    /* align-items:center; */
+    gap: 20px !important;
+    margin-top: 50px !important;
+}
+
+
+.loader{
+    position: absolute !important;
+    top: 100% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 100px !important;
+    
+}
